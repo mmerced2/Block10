@@ -1,0 +1,31 @@
+/*
+.Grid-container-example{
+    display:grid;
+    grid-template-areas: 'header_block header_block header_block header_block '
+    'menu_block main_block main_block main_block right_block right_block';
+    gap: 5px;
+    background-color: #F16767;
+    padding: 2px;
+}*/
+
+
+li:nth-child(even)
+{color: red;}
+
+ul:hover{
+    background-color: yellow;
+}
+
+.first{
+    border: 2px dashed green;
+}
+
+.shorter {
+    width: calc(100%  - 20px);
+    border: 2px solid blue;
+}
+
+.static {
+    width: calc(10px + 20px);
+    border: 2px solid blue;
+}

@@ -1,0 +1,23 @@
+*{background-color: lightblue }
+
+p:hover{background-color: orange;}
+
+li:nth-child(even){
+color:green;
+}
+
+section{
+    height: 100%;
+    border: 1px solid black;
+}
+
+h1{
+   /* height: 50vh;*/
+    height: calc(100%-15px);
+    border: 2px solid red;
+}
+
+/*use for website!!*/
+@media (min-width: 1000px){
+    h1{height:50 vh;}
+}
